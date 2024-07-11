@@ -83,7 +83,7 @@ if(value=='X' && tic_tac_toe[r][c]!='X'&& tic_tac_toe[r][c]!='0'){
     value='X';
   }
 else{
-    cout<<"Completely filled########"<<endl;
+    cout<<"Completely filled please restart again########"<<endl;
  askagain();
 }
 
