@@ -18,17 +18,17 @@ cout<<"do you want to play again for Yes (1) and for No (0)\n";
 //main function
    int guess = 0;
 int main(){
-    int inputuser;
+    int user_input;
     int random_no =rand()%100+1;
     cout<<"enter any no in range between 1 to 100:\n";
 while(guess != random_no){
     cin>>inputuser;
-        if(random_no<inputuser){
+        if(random_no<user_input){
             cout<<"Too high,Try again\n";
-        }else if(random_no>inputuser){
+        }else if(random_no>user_input){
             cout<<"To low,Try again\n";
         }else{
-             if(inputuser==random_no){
+             if(user_input==random_no){
         cout<<"Congratulation!, You guessed the number:\n";
             asking();
             break;
