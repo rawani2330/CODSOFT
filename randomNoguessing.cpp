@@ -22,7 +22,7 @@ int main(){
     int random_no =rand()%100+1;
     cout<<"enter any no in range between 1 to 100:\n";
 while(guess != random_no){
-    cin>>inputuser;
+    cin>>user_input;
         if(random_no<user_input){
             cout<<"Too high,Try again\n";
         }else if(random_no>user_input){
